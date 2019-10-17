@@ -3,6 +3,7 @@ def using_include(array, element)
   for i in i ... array.size()
     if array[i] == element
       return TRUE
+    end
   end
 end
 
